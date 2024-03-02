@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+header, footer {
+    font-family: 'Arvo', serif;
+    background-color: rgb(50, 50, 50);
+    color: aliceblue;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header span {
+    font-size:xx-large;
+    padding: 1rem;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(146, 82, 42);
+    list-style-type: none;
+}
+
+nav a {
+    text-align: center;
+    display: block;
+    color: aliceblue;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav .active {
+    background-color: rgb(52, 52, 52, 0.5);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    background-color: gray;
+    min-height: 100vh;
+}
+
+main {
+    font-weight: 300;
+    align-self: center;
+    text-align: center;
+    flex: 1;
+}
+
+main h1 {
+    color: aliceblue;
+}
+
+.cards {
+    margin: 1rem 1vw;
+}
+
+.cards section {
+    border: 1px solid rgb(146, 82, 42);
+    background-color: white;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+.cards .card {
+    background-color: gainsboro;
+    text-align: center;
+    display: block;
+}
+
+.card h2 {
+    background-color: rgb(146, 82, 42);
+}
+
+.card li {
+    list-style: none;
+    font-weight: 500;
+    padding: .5rem;
+
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+footer {
+    flex-direction: column;
+}
