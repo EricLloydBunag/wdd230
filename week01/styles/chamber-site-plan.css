@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: #38803A;
+    --secondary-color: #53B13E;
+    --accent1-color: #D6EBFF;
+    --accent2-color: #DCED14;
+    --page-body-color: #FBFFFA;
+
+    --heading-font: "Alegreya", "Noto Serif", serif;
+    --paragraph-font: "Poppins", "Noto Sans", sans-serif;
+
+    --headline-color-on-white: #38803A; 
+    --headline-color-on-color: #FAFAFA;
+    --paragraph-color-on-white: rgb(37, 41, 36);
+    --paragraph-color-on-color: #FAFAFA;
+    --paragraph-background-color: #38803A;
+}
+
+body {
+    font-size: 18px;
+    text-align: center;
+    background-color: #FBFFFA;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+hr {
+    height: 3px;
+    margin: 35px 0;
+    background: var(--accent2-color);
+}
+header {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: var(--headline-color-on-color);
+    background-color: var(--paragraph-background-color);
+}
+header > h1, header > h2 {
+    color: var(--headline-color-on-color);
+}
+main{
+    margin: 0 auto;
+    padding: 4em
+}
+p, ul {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    padding: 1em;
+}
+p.colored {
+    background-color: #53B13E;
+    color: var(--paragraph-color-on-color);
+}
+.colors {
+    width: 100%;
+    text-align: center;
+}
+  .colors th {
+    background-color: #999;
+}
+.colors td{
+    width: 20%;
+    height: 3em;
+}
+.primary {
+    background-color: var(--primary-color);
+}
+.secondary {
+    background-color: var(--secondary-color);
+}
+.accent1 {
+    background-color: var(--accent1-color);
+}
+.accent2{
+    background-color: var(--accent2-color);
+}
+.page-body{
+    background-color: var(--page-body-color);
+}
+#wireframes{
+    display: grid;
+    grid-column: 1fr 1fr auto;
+    gap: 50px;
+}
