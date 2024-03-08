@@ -14,26 +14,14 @@
     <meta property="og:type"            content="website" />
     <meta property="og:url"                content="https://ericlloydbunag.github.io/wdd230/" />
     <meta property="og:image"              content="https://github.com/EricLloydBunag/wdd230/blob/main/images/tagum-city1.jpg" />
-    <style>
-        section {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 20px;
-        }
-
-        @media screen and (min-width: 768px) {
-            section {
-                grid-template-columns: 2fr 1fr;
-            }
-        }
-    </style>
 </head>
 <body>
     <header>
         <img src="images/eric-profile.jpg" alt="Eric Lloyd Bunag's profile picture.">
         <span>Eric Lloyd Bunag</span>
     </header>
-    <nav>
+    <button id="menu"></button>
+    <nav class="navigation">
         <ul>
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="chamber">Chamber</a></li>
@@ -67,5 +55,6 @@
         <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/hammenu-n-darkmode.js"></script>
 </body>
 </html>
