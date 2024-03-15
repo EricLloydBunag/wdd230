@@ -18,6 +18,11 @@ section {
     box-sizing: border-box ;
 }
 
+#mode {
+    background-color: rgb(50, 50, 50);
+    padding: 0.5rem;
+}
+
 header, footer {
     font-family: 'Arvo', serif;
     background-color: rgb(50, 50, 50);
