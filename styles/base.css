@@ -69,6 +69,31 @@ body {
     min-height: 100vh;
 }
 
+.hero{
+    position: relative;
+    max-width: 100%;
+}
+
+.hero img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 35px;
+    font-family: 'Arvo', serif;
+    text-align: center;
+    pointer-events: none;
+    background-color: rgba(50, 50, 50, 0.3);
+    padding: .7rem;
+}
+
 main {
     font-weight: 300;
     align-self: center;
@@ -112,6 +137,14 @@ main h1 {
     text-decoration: none;
     color: black;
     font-weight: normal;
+}
+
+.card p{
+    padding: .5rem;
+}
+
+iframe {
+    padding: 1rem;
 }
 
 footer {
