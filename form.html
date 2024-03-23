@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Lloyd Bunag - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="A course assignment portal for the BYU-I course WDD 230 - Web Frontend Development made by Eric Lloyd Bunag.">
+    <meta name="author" content="Eric Lloyd Bunag">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+
+    <meta property="og:title"              content="Eric Lloyd Bunag - WDD 230 - Web Frontend Development" />
+    <meta property="og:type"            content="website" />
+    <meta property="og:url"                content="https://ericlloydbunag.github.io/wdd230/" />
+    <meta property="og:image"              content="https://github.com/EricLloydBunag/wdd230/blob/main/images/tagum-city1.jpg" />
+</head>
+<body>
+    <div id="mode">🌑</div>
+    <header>
+        <img src="images/eric-profile.jpg" alt="Eric Lloyd Bunag's profile picture.">
+        <span>Eric Lloyd Bunag</span>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="chamber">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form method="get" action="record.html">
+            <fieldset>
+                <label>Username: <input type="text" name="username" id="user" required></label>
+                <label>Password: <input type="password" name="password1" id="pass1" title="Password must be 8 or more alpha-numeric characters long." pattern="^[a-zA-Z0-9]{8,}$" required></label>
+                <label>Re-enter Password: <input type="password" name="password2" id="pass2" title="Must match password." pattern="^[a-zA-Z0-9]{8,}$" required></label>
+                <div id="feedback"></div>
+                <label>Email: <input type="email" name="email" id="email" title="Please enter a valid BYU-I email address." pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"></label>
+                <label>Page Rating: <input type="range" name="page-rating" id="rating" min="0" max="5" value="0" step="1"><span id="rangevalue">0</span></label>      
+                <input type="submit" value="Register">
+            </fieldset>
+        </form>
+
+
+
+    </main>
+    <footer>
+        <p>©<span id="copyrightYear"></span>. Eric Lloyd Bunag Philippines <br></p>
+
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hammenu-n-darkmode.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>

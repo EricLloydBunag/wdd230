@@ -1,0 +1,45 @@
+:root{
+    --margin: 1rem auto;
+    --padding-top: 1rem;
+    --color: rgb(146, 82, 42)
+}
+
+form {
+    margin: var(--margin);
+    padding: 1rem auto;
+}
+
+label{
+    display: block;
+    padding-top: var(--padding-top);
+    text-align: left;
+}
+
+#feedback{
+    color: maroon;
+}
+
+/*page rating*/
+
+#r {
+	width: 180px;
+	margin-bottom: 0;
+}
+
+#rangevalue {
+    color: var(--color);
+    font-size: 22px;
+    margin: 0 2rem;
+    font-weight: bolder;
+}
+
+input[type='submit']{
+    border: none;
+    background-image: linear-gradient(var(--color), rgb(50, 50, 50));
+    color: white;
+    border-radius: 10px;
+    margin: var(--margin);
+    padding: .5rem;
+    width: 50%;
+    max-width: 400px;
+}
