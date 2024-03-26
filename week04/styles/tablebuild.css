@@ -1,0 +1,73 @@
+/*table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ccc;
+  }
+  
+  thead th {
+    background-color: rgb(30, 30, 30);
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  tbody td {
+    border: 1px solid #ccc; 
+    padding: 10px;
+    
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+  }
+  
+  td:empty::before {
+    content: '✔️';
+    color: green;
+  }
+  
+  td:not(:empty)::before {
+    content: '❌';
+    color: red;
+  }
+*/  
+
+/* Apply general styles to the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #777;
+  }
+  
+  /* Apply styles to the table header */
+  thead th {
+    background-color: #777;
+    border: 1px solid #777;
+    padding: 10px;
+    color: #eee;
+  }
+  
+  /* Apply styles to the table body */
+  tbody td {
+    border: 1px solid #777;
+    padding: 10px;
+  }
+  
+  /* Apply styles to alternate rows */
+  tbody tr:nth-child(even) {
+    background-color: #eee;
+  }
+  
+  /* Apply styles to the table caption */
+  caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+    caption-side: bottom;
+  }
+  
