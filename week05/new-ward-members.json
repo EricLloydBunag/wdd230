@@ -1,0 +1,33 @@
+{
+    "wardName": "Tagum Ward",
+    "formed": 2000,
+    "members": [
+        {
+            "familyName": "Gonzaga",
+            "movedIn": 2009,
+            "inHousehold": 3,
+            "visitedByBishopric": true,
+            "individuals": [
+                "Alfredo", "Maria", "Casey"
+            ]
+        },
+        {
+            "familyName": "Toledo",
+            "movedIn": 2012,
+            "inHousehold": 5,
+            "visitedByBishopric": true,
+            "individuals": [
+                "Robert", "Edith", "Alan", "John", "Ira"
+            ]
+        },
+        {
+            "familyName": "Kanazawa",
+            "movedIn": 2019,
+            "inHousehold": 4,
+            "visitedByBishopric": true,
+            "individuals": [
+                "Kenichi", "Haruka", "Akira", "Akari"
+            ]
+        }
+    ]
+}
