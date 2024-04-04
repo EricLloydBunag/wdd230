@@ -1,0 +1,85 @@
+{
+    "weeks":[
+        {
+            "week":"Week 01",
+            "links":[
+                {
+                    "url":"https://ericlloydbunag.github.io/wdd230/week01/holygrail.html",
+                    "title":"Layout"
+                },
+                {
+                    "url":"https://ericlloydbunag.github.io/wdd230/week01/media-query.html",
+                    "title":"Media Query"
+                },
+                {
+                    "url":"https://codepen.io/EricLloydBunag/pen/LYvYZXg",
+                    "title":"JS Pen"
+                }
+            ]
+        },
+        {
+            "week":"Week 02",
+            "links":[
+                {
+                    "url":"https://ericlloydbunag.github.io/wdd230/week02/design.html",
+                    "title":"Design Principles"
+                },
+                {
+                    "url":"https://codepen.io/EricLloydBunag/pen/XWQmypv",
+                    "title":"Responsive Hamburger Menu"
+                },
+                {
+                    "url":"https://ericlloydbunag.github.io/wdd230/week02/bom.html",
+                    "title":"DOM Manipulation"
+                }
+            ]
+        },
+        {
+            "week":"Week 03",
+            "links":[
+                {
+                    "url":"https://ericlloydbunag.github.io/wdd230/week03/responsive-images.html",
+                    "title":"Responsive Images"
+                },
+                {
+                    "url":"https://ericlloydbunag.github.io/wdd230/week03/lazyload.html",
+                    "title":"Lazy Loading"
+                }
+            ]
+        },
+        {
+            "week":"Week 04",
+            "links":[
+                {
+                    "url":"https://ericlloydbunag.github.io/wdd230/week04/index.html",
+                    "title":"HTML Forms"
+                },
+                {
+                    "url":"https://codepen.io/EricLloydBunag/pen/XWQRZzG",
+                    "title":"Pseudo Classes"
+                },
+                {
+                    "url":"https://ericlloydbunag.github.io/wdd230/week04/tablebuild.html",
+                    "title":"HTML Tables"
+                }
+            ]
+        },
+        {
+            "week":"Week 05",
+            "links":[
+                {
+                    "url":"https://ericlloydbunag.github.io/wdd230/week05/new-ward-members.json",
+                    "title":"Working with JSON"
+                },
+                {
+                    "url":"https://ericlloydbunag.github.io/wdd230/week05/prophets.html",
+                    "title":"Fetch API"
+                },
+                {
+                    "url":"https://ericlloydbunag.github.io/wdd230/week05/weather.html",
+                    "title":"Weather API"
+                }
+            ]
+        }
+    ]
+}
