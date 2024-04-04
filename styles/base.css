@@ -118,8 +118,10 @@ main h1 {
 
 .cards .card {
     background-color: gainsboro;
+    align-items: center;
     text-align: center;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .card h2 {
@@ -141,7 +143,9 @@ main h1 {
 
 .card p{
     padding: .5rem;
+    text-transform: capitalize;
 }
+
 
 iframe {
     padding: 1rem;
