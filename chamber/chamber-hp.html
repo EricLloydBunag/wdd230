@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davao del Norte Chamber of Commerce and Industry</title>
+    <meta name="description" content="Chamber of Commerce site project for the BYU-I course WDD 230 - Web Frontend Development made by Eric Lloyd Bunag.">
+    <meta name="author" content="Eric Lloyd Bunag">
+    <link rel="icon" href="images/chamber-favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/hp-style.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <meta property="og:title"              content="Davao del Norte Chamber of Commerce and Industry" />
+    <meta property="og:type"            content="website" />
+    <meta property="og:url"                content="https://ericlloydbunag.github.io/wdd230/chamber" />
+    <meta property="og:image"              content="https://github.com/EricLloydBunag/wdd230/blob/main/images/tagum-city1.jpg" />
+</head>
+<body>
+    <header>
+        <span id="page-title">Davao del Norte Chamber of Commerce and Industry</span>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="chamber-hp.html">Home</a></li>
+            <li><a href="#disc">Discover</a></li>
+            <li><a href="#event">Events</a></li>
+            <li><a href="join.html">Join</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <div id="hero">
+            <picture>
+                <source srcset="images/palm-road-tagum-small.webp" media="(max-width: 500px)">
+                <img src="images/palm-road-tagum.webp" alt="Tagum City's Palm Road" width="1000" height="500" loading="lazy" id="hero-img">
+            </picture>
+            <div class="overlay"></div>
+            <section id="hero-msg">
+                <h1 class="home-title">
+                    Elevate Your Business To New Heights
+                </h1>
+                <p>
+                    At the Davao del Norte Chamber of Commerce, we are on a mission to empower local businesses and drive economic prosperity. 
+                    With a commitment to collaboration and innovation, we provide a supportive ecosystem where businesses thrive and opportunities                         abound. Whether you're a startup seeking guidance or an established enterprise aiming to expand, we're here to help you succeed. 
+                    Join us today and unlock the resources, networks, and expertise you need to take your business to new heights!
+                </p>    
+                <div class="button-box">
+                    <a id="register" href="join.html">
+                        Join Us
+                    </a>
+                </div>
+            </section>
+        </div>
+
+        <div class="about-us">
+            <h2>About Us</h2>
+            <p>Welcome to the Davao del Norte Chamber of Commerce and Industry, a vibrant community of entrepreneurs, innovators, and industry leaders 
+                committed to driving economic growth and prosperity in our province. With a focus on fostering strategic partnerships and proactive 
+                advocacy, we empower local businesses to thrive in a dynamic ecosystem of innovation and opportunity. Through a wide range of resources, 
+                networks, and support systems, including educational programs and networking events, we aim to fuel growth, enhance competitiveness, and 
+                stimulate economic progress. Join us on this journey of empowerment and transformation as we work together to build a brighter future 
+                for our businesses, our communities, and our nation.
+            </p>
+            <img src="images/davnor-regional-office-small.webp" alt="Davao del Norte Provincial Office" width="200" loading="lazy" id="about-img">
+        </div>
+
+        <div class="slideshow-container">
+            <h2>Events</h2>
+            <div class="eventSlides fade">
+                <div class="text">Event</div>
+            </div>
+        
+            <div class="eventSlides fade">
+                <div class="text">Event Two</div>
+            </div>
+    
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+    </main>
+    <footer>
+        <p>©<span id="copyrightYear"></span>. Eric Lloyd Bunag Philippines <br></p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/homepage.js"></script></body>
+</body>
+</html>

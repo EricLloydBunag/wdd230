@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davao del Norte Chamber of Commerce and Industry</title>
+    <meta name="description" content="Chamber of Commerce site project for the BYU-I course WDD 230 - Web Frontend Development made by Eric Lloyd Bunag.">
+    <meta name="author" content="Eric Lloyd Bunag">
+    <link rel="icon" href="images/chamber-favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/hp-style.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <meta property="og:title"              content="Davao del Norte Chamber of Commerce and Industry" />
+    <meta property="og:type"            content="website" />
+    <meta property="og:url"                content="https://ericlloydbunag.github.io/wdd230/chamber" />
+    <meta property="og:image"              content="https://github.com/EricLloydBunag/wdd230/blob/main/images/tagum-city1.jpg" />
+</head>
+<body>
+    <header>
+        <span id="page-title">Davao del Norte Chamber of Commerce and Industry</span>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="chamber-hp.html">Home</a></li>
+            <li><a href="#disc">Discover</a></li>
+            <li><a href="#event">Events</a></li>
+            <li><a href="#join">Join</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <form action="thankyou.html" method="get">
+            <label>First Name: <input type="text" name="fname" required></label>
+            <label>Last Name: <input type="text" name="lname" required></label>
+            <label for="title">Title or Position:<input type="text" id="title" name="title" title="Your title or position within your organization." pattern="[A-Za-z -]{7,}" required></label>
+
+            <label>Email: <input type="email" name="email" id="email" title="Please enter a valid email address." pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required placeholder="example@email.com"></label>
+            <label>Mobile Phone: <input type="tel" name="phone" required></label>
+
+            <label for="business-name">Business/Organization Name: <input type="text" id="business-name" name="business-name" required></label>
+
+            <label for="membership-level">Membership Level:</label>
+            <select id="membership-level" name="membership-level" required>
+                <option value="NP Membership">Non-Profit (Free) Membership</option>
+                <option value="Bronze Membership">Bronze Membership</option>
+                <option value="Silver Membership">Silver Membership</option>
+                <option value="Gold Membership">Gold Membership</option>
+            </select>
+
+            <label for="description">Business/Organization Description: </label>
+            <textarea id="description" name="description"></textarea>
+
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+
+            <input type="submit" value="Register">
+        </form>
+    </main>
+    <footer>
+        <p>©<span id="copyrightYear"></span>. Eric Lloyd Bunag Philippines <br></p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/homepage.js"></script></body>
+</body>
+</html>

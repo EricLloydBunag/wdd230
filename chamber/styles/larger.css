@@ -1,0 +1,36 @@
+@media (min-width: 700px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
+
+	#page-title{
+		text-align: center;
+		font-size: xx-large;
+	}
+
+	#menu{
+		display: none;
+	}
+
+	.cards{
+		display: grid;
+		grid-template-columns: 3fr 2fr;
+		margin: 1rem 1vw;
+	}
+}
+
+@media (min-width: 1000px){
+
+	.about-us {
+		flex-direction: row; 
+		align-items:center;
+		text-align: left;
+	}
+
+	.about-us h2, p{
+		padding: 1rem;
+	}
+}
