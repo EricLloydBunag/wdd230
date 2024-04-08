@@ -1,27 +1,31 @@
-const baseURL = "https://ericlloydbunag.github.io/wdd230/";
-const linksURL = "https://ericlloydbunag.github.io/wdd230/chamber/data/links.json";
+/*async function getMemberData() {
+    const response = await fetch('https://ericlloydbunag.github.io/wdd230/chamber/data/members.json');
+    const data = await response.json();
+    console.table(data.members);
+}
 
+getMemberData();*/
 
-// JavaScript code to fetch and display member information
+const url = 'https://ericlloydbunag.github.io/wdd230/chamber/data/members.json';
+
 document.addEventListener('DOMContentLoaded', function() {
-    const memberContainer = document.getElementById('member-container');
+    const memberContainer = document.getElementById('member-cards');
 
     // Fetch member data from JSON file
-    fetch('data/members.json')
+    fetch(url) // Pass the correct URL to fetch member data
         .then(response => response.json())
         .then(data => {
             // Generate HTML for each member
-            data.forEach(member => {
+            data.members.forEach(member => {
                 const memberCard = document.createElement('div');
                 memberCard.classList.add('member-card');
                 memberCard.innerHTML = `
-                    <img src="images/${member.image}" alt="${member.name}">
-                    <h3>${member.name}</h3>
+                    <img src="images/${member.icon}" alt="${member.name}">
+                    <h3>${member.companyName}</h3>
                     <p>${member.address}</p>
                     <p>${member.phone}</p>
                     <a href="${member.website}" target="_blank">Website</a>
-                    <p>Membership Level: ${member.membership_level}</p>
-                    <p>${member.other_information}</p>
+                    <p>Membership Level: ${member.membership}</p>
                 `;
                 memberContainer.appendChild(memberCard);
             });
