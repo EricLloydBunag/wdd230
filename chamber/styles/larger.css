@@ -20,6 +20,14 @@
 		grid-template-columns: 3fr 2fr;
 		margin: 1rem 1vw;
 	}
+
+	#member-cards{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		grid-gap: 1px;
+		align-items: center;
+	}
+	
 }
 
 @media (min-width: 1000px){

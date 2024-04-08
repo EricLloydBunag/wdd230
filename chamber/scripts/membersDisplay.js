@@ -20,15 +20,30 @@ document.addEventListener('DOMContentLoaded', function() {
                 const memberCard = document.createElement('div');
                 memberCard.classList.add('member-card');
                 memberCard.innerHTML = `
-                    <img src="images/${member.icon}" alt="${member.name}">
+                    <img src="images/${member.icon}" alt="${member.companyName}'s logo.">
                     <h3>${member.companyName}</h3>
                     <p>${member.address}</p>
                     <p>${member.phone}</p>
                     <a href="${member.website}" target="_blank">Website</a>
                     <p>Membership Level: ${member.membership}</p>
                 `;
+
                 memberContainer.appendChild(memberCard);
             });
         })
         .catch(error => console.error('Error fetching member data:', error));
+});
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("#member-cards");
+
+gridbutton.addEventListener("click", () => {
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", () =>{
+    display.classList.add("list");
+	display.classList.remove("grid");
 });
