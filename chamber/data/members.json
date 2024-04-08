@@ -1,0 +1,67 @@
+{
+    "members":[
+        {
+            "companyName":"Chong’s Pizzeria",
+            "address":"Barangay Magugpo North, Tagum City",
+            "website":"chongspizza.com",
+            "phone":"+639901238801",
+            "email":"chongspizzaph@gmail.com",
+            "icon":"chong.ico",
+            "membership":""
+        },
+        {
+            "companyName":"Bubbleman Laundromat",
+            "address":"Barangay Limao, Samal City",
+            "website":"bubbleman.com",
+            "phone":"+639912349912",
+            "email":"bubblemanlaundryph@gmail.com",
+            "icon":"bubble.ico",
+            "membership":"Bronze"
+        },
+        {
+            "companyName":"Rojo Pharmacy",
+            "address":"Barangay La Filipina, Tagum City",
+            "website":"rojopharmacy.com",
+            "phone":"+639923450023",
+            "email":"rojomedsph@gmail.com",
+            "icon":"rojo.ico",
+            "membership":"Silver"
+        },
+        {
+            "companyName":"Aliya’s Bakeshop",
+            "address":"Barangay Gupitan, Kapalong",
+            "website":"aliyabakery.com",
+            "phone":"+639934561134",
+            "email":"aliyasph@gmail.com",
+            "icon":"aliya.ico",
+            "membership":"Non-Profit"
+        },
+        {
+            "companyName":"Country Fried Chicken",
+            "address":"Barangay Buenavista, Panabo City",
+            "website":"cfchicken.com",
+            "phone":"+639945672245",
+            "email":"cfchickenph@gmail.com",
+            "icon":"cfc.ico",
+            "membership":"Gold"
+        },
+        {
+            "companyName":"Dendro Agrivet Supplies",
+            "address":"Barangay San Vicente, Asuncion",
+            "website":"dendroagrivet.com",
+            "phone":"+63995673356",
+            "email":"dendroagrivet@gmail.com",
+            "icon":"dendro.ico",
+            "membership":"Silver"
+        },
+        {
+            "companyName":"Ramen no Tatsujin Japanese Resto",
+            "address":"Barangay Mabuhay, Carmen",
+            "website":"ramenmaster.com",
+            "phone":"+63996784467",
+            "email":"ramentatsujinph@gmail.com",
+            "icon":"ramtat.ico",
+            "membership":"Gold"
+        }
+    ]
+}
