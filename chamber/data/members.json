@@ -6,7 +6,7 @@
             "website":"chongspizza.com",
             "phone":"+639901238801",
             "email":"chongspizzaph@gmail.com",
-            "icon":"chong.ico",
+            "icon":"chong.png",
             "membership":"Bronze"
         },
         {
@@ -15,7 +15,7 @@
             "website":"bubbleman.com",
             "phone":"+639912349912",
             "email":"bubblemanlaundryph@gmail.com",
-            "icon":"bubble.ico",
+            "icon":"bubbleman.png",
             "membership":"Bronze"
         },
         {
@@ -24,7 +24,7 @@
             "website":"rojopharmacy.com",
             "phone":"+639923450023",
             "email":"rojomedsph@gmail.com",
-            "icon":"rojo.ico",
+            "icon":"rojo.png",
             "membership":"Silver"
         },
         {
@@ -33,7 +33,7 @@
             "website":"aliyabakery.com",
             "phone":"+639934561134",
             "email":"aliyasph@gmail.com",
-            "icon":"aliya.ico",
+            "icon":"aliya.png",
             "membership":"Non-Profit"
         },
         {
@@ -42,7 +42,7 @@
             "website":"cfchicken.com",
             "phone":"+639945672245",
             "email":"cfchickenph@gmail.com",
-            "icon":"cfc.ico",
+            "icon":"cfc.png",
             "membership":"Gold"
         },
         {
@@ -51,7 +51,7 @@
             "website":"dendroagrivet.com",
             "phone":"+63995673356",
             "email":"dendroagrivet@gmail.com",
-            "icon":"dendro.ico",
+            "icon":"dendro.png",
             "membership":"Silver"
         },
         {
@@ -60,7 +60,7 @@
             "website":"ramenmaster.com",
             "phone":"+63996784467",
             "email":"ramentatsujinph@gmail.com",
-            "icon":"ramtat.ico",
+            "icon":"ramtat.png",
             "membership":"Gold"
         }
     ]
