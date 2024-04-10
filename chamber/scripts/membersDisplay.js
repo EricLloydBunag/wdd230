@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const memberCard = document.createElement('div');
                 memberCard.classList.add('member-card');
                 memberCard.innerHTML = `
-                    <img src="images/${member.icon}" alt="${member.companyName}'s logo.">
+                    <img class="company-icon" src="images/${member.icon}" alt="${member.companyName}'s logo." loading="lazy">
                     <h3>${member.companyName}</h3>
                     <p>${member.address}</p>
                     <p>${member.phone}</p>

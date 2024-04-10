@@ -19,7 +19,12 @@
 		display: grid;
 		grid-template-columns: 3fr 2fr;
 		margin: 1rem 1vw;
-	}	
+	}
+	
+	#events-n-weather{
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+	}
 }
 
 @media (min-width: 1000px){
