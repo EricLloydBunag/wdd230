@@ -1,4 +1,4 @@
-//contains weatherNow, lastModified, hamburgerMenu, darkmode 
+//contains weatherNow, lastModified, hamburgerMenu 
 
 //hamburgerMenu
 const hamButton = document.querySelector('#menu');
@@ -15,23 +15,6 @@ navigation.querySelectorAll('a').forEach(link => {
         hamButton.classList.remove('open');
     });
 });
-
-/*//darkMode
-const modeButton = document.querySelector("#mode");
-const main = document.querySelector("body");
-
-modeButton.addEventListener("click", () => {
-	if (modeButton.textContent.includes("🌑")) {
-		body.main.style.background = '';
-		main.style.color = "aliceblue";
-		modeButton.textContent = "☀️";
-	} else {
-		main.style.background = "gray";
-		main.style.color = "aliceblue";
-		modeButton.textContent = "🌑";
-	}
-});*/
-
 
 //copyrightYear and lastModified
 function updateCopyrightYear(){

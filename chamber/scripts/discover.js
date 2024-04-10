@@ -1,3 +1,4 @@
+//script for discover page
 document.addEventListener("DOMContentLoaded", function() {
     var lastVisit = localStorage.getItem("lastVisit");
 
@@ -19,7 +20,5 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("last-visited").innerHTML = "<h2>" + message + "</h2>";
         }
     }
-
-    // Store current date as last visit date in localStorage
     localStorage.setItem("lastVisit", Date.now());
 });

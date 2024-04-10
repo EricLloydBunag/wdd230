@@ -1,3 +1,5 @@
+//contains scripts for slideshow, weather now and forecast, spotlight ad, and banner 
+
 //Events Slideshow
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -84,18 +86,13 @@ const url = 'https://ericlloydbunag.github.io/wdd230/chamber/data/members.json';
 fetch(url)
   .then(response => response.json())
   .then(data => {
-    // Filter members with silver or gold membership levels
-    const qualifiedMembers = data.members.filter(member => member.membership === 'Silver' || member.membership === 'Gold');
-    
-    // Randomly select two or three members
+    const qualifiedMembers = data.members.filter(member => member.membership === 'Silver' || member.membership === 'Gold');   
     const spotlightMembers = [];
     while (spotlightMembers.length < 2 && qualifiedMembers.length > 0) {
       const randomIndex = Math.floor(Math.random() * qualifiedMembers.length);
       const randomMember = qualifiedMembers.splice(randomIndex, 1)[0];
       spotlightMembers.push(randomMember);
-    }
-    
-    // Display spotlight advertisements on the home page
+    }    
     const spotlightContainer = document.getElementById('spotlight');
     spotlightMembers.forEach(member => {
       const spotlightAd = document.createElement('div');

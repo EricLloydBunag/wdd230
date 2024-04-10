@@ -1,21 +1,13 @@
-/*async function getMemberData() {
-    const response = await fetch('https://ericlloydbunag.github.io/wdd230/chamber/data/members.json');
-    const data = await response.json();
-    console.table(data.members);
-}
-
-getMemberData();*/
+//script for directory page
 
 const url = 'https://ericlloydbunag.github.io/wdd230/chamber/data/members.json';
 
 document.addEventListener('DOMContentLoaded', function() {
     const memberContainer = document.getElementById('member-cards');
 
-    // Fetch member data from JSON file
-    fetch(url) // Pass the correct URL to fetch member data
+    fetch(url)
         .then(response => response.json())
         .then(data => {
-            // Generate HTML for each member
             data.members.forEach(member => {
                 const memberCard = document.createElement('div');
                 memberCard.classList.add('member-card');
