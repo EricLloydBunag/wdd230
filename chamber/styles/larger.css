@@ -14,16 +14,15 @@
 	#menu{
 		display: none;
 	}
-
-	.cards{
-		display: grid;
-		grid-template-columns: 3fr 2fr;
-		margin: 1rem 1vw;
-	}
 	
 	#events-n-weather{
 		display: grid;
 		grid-template-columns: 2fr 1fr;
+	}
+
+	iframe{
+		width: 450;
+		height: 450;
 	}
 }
 

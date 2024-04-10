@@ -65,6 +65,12 @@ a{
     color: var(--paragraph-color-on-color);
     text-decoration: none;
 }
+p{
+    text-indent: 10%;
+}
+hr{
+    margin: 10px;
+}
 
 /*------Banner------*/
 .banner-content {
@@ -253,7 +259,6 @@ a{
   to {opacity: 1}
 }
 
-
 /*------Weather------*/
 .weather-card{
     margin: 20px auto;
@@ -269,6 +274,69 @@ a{
     padding: 10px;
 }
 
+/*------Discover Gallery------*/
+.discover{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 20px;
+    margin: 2%;
+}
+#discover-ddn{
+    grid-column: span 2;
+    background-color: var(--accent1-color);
+    border-radius: 10px;
+
+}
+#discover-ddn h2{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: var(--secondary-color);
+    padding: 5px;
+    font-size: 40px;
+}
+#discover-ddn p{
+    padding: 15px;
+    text-align: justify;
+    font-size: 15px;
+}
+.sidebar{
+    background-color: var(--accent1-color);
+    border-radius: 10px;
+}
+#last-visited{
+    background-color: var(--secondary-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+.sidebar section{
+    margin: 20px;
+}
+.ddn-event{
+    font-weight: bold;
+}
+.sidebar section ul{
+    padding: 5px;
+    list-style: none;
+}
+.gallery img{
+    width: 50%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.gallery img:hover{
+    transform: scale(1.05);
+}
+iframe{
+    width: 100%;
+    height: 30%;
+    padding: 30px;
+}
+
 /*------Form------*/
 form {
     width: 90%;
@@ -279,7 +347,6 @@ form {
     border: solid 1px var(--secondary-color);
     border-radius: 8px;
 }
-
 label{
     display: block;
     margin-bottom: 10px;
@@ -288,7 +355,9 @@ label{
     font-weight: bold;
 
 }
-
+legend{
+    padding:5px;
+}
 input[type="text"], input[type="password"], input[type="email"], input[type="range"], input[type="tel"], select, textarea{
     display: block;
     width: calc(100% - 20px); 

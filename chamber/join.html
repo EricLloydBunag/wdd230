@@ -24,7 +24,7 @@
     <nav class="navigation">
         <ul>
             <li><a href="chamber-hp.html">Home</a></li>
-            <li><a href="#disc">Discover</a></li>
+            <li><a href="discover.html">Discover</a></li>
             <li><a href="#event">Events</a></li>
             <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
@@ -32,14 +32,19 @@
     </nav>
     <main>
         <form action="thankyou.html" method="get">
+            <legend><h3>Personal Information</h3></legend>
             <label>First Name: <input type="text" name="fname" required></label>
             <label>Last Name: <input type="text" name="lname" required></label>
             <label for="title">Title or Position:<input type="text" id="title" name="title" title="Your title or position within your organization." pattern="[A-Za-z -]{7,}" required></label>
-
             <label>Email: <input type="email" name="email" id="email" title="Please enter a valid email address." pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required placeholder="example@email.com"></label>
             <label>Mobile Phone: <input type="tel" name="phone" required></label>
+            <hr>
 
+            <legend><h3>Business Information</h3></legend>
             <label for="business-name">Business/Organization Name: <input type="text" id="business-name" name="business-name" required></label>
+            <label for="description">Business/Organization Description: </label>
+            <textarea id="description" name="description"></textarea>
+            <hr>
 
             <label for="membership-level">Membership Level:</label>
             <select id="membership-level" name="membership-level" required>
@@ -48,9 +53,6 @@
                 <option value="Silver Membership">Silver Membership</option>
                 <option value="Gold Membership">Gold Membership</option>
             </select>
-
-            <label for="description">Business/Organization Description: </label>
-            <textarea id="description" name="description"></textarea>
 
             <input type="hidden" id="timestamp" name="timestamp" value="">
 
